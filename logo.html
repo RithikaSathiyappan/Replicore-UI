@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replicore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+
+    html {
+    scroll-behavior: smooth;
+    }
+
+    section {
+    padding-top: 20px; 
+    } 
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 90px;
+      background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+      color: #fff;
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #121212;
+      padding: 20px 40px;         /* Reduced padding for left/right */
+      color: #00bcd4;
+      border-bottom: 1px solid #03e9f4;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      z-index: 1000;
+      box-sizing: border-box;
+    }
+
+
+    .logo {
+      justify-content: right;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #03e9f4;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      justify-content: right;
+      gap: 50px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #ccc;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+      color: #03e9f4;
+    }
+
+    .logo-img {
+    height: 610px;   
+    width: 1750px;
+    margin-top: 15px;
+    border-radius: 20px;
+    opacity: 70%;
+    }
+
+    .logo-img1 {
+    height: 400px;    
+    width: 700px;
+    border-radius: 20px;
+    margin: auto; 
+    display: flex;
+    gap: 50px;
+    }
+   
+    .tagline {
+      font-size: 1.2rem;
+      font-style: italic;
+      color: #ffffff;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .metrics {
+      font-size: 4.2rem;
+      color: #2fe8f1;
+      margin-bottom: 30px;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      text-align: center;
+    }
+    
+    .service-box {
+      background: #1f1f1f;
+      border-radius: 12px;
+      padding: 70px;
+      border-left: 5px solid #00bcd4;
+      transition: 0.3s ease;
+    }
+
+    .service-box:hover {
+      transform: translateY(-15px);
+      border-left: 5px solid #03e9f4;
+    }
+
+    .service-box h2 {
+      color: #03e9f4;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+      gap: 30px;
+      text-align: center;
+    }
+    
+    .pricing-box {
+      background: #1f1f1f;
+      border-radius: 12px;
+      padding: 50px;
+      border-left: 5px solid #00bcd4;
+      transition: 0.3s ease;
+    }
+
+    .pricing-box:hover {
+      transform: translateY(-5px);
+      border-left: 5px solid #03e9f4;
+    }
+
+    .pricing-box h2 {
+      color: #03e9f4;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      background-color: #0F2027;
+      margin-top: 40px;
+      font-size: 1.50rem;
+      color: #aaa;
+      text-align: center;
+    } 
+  </style>
+</head>
+
+
+<body>
+  <header class="nav-header">
+  <div class="logo">Replicore</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="poster">
+    <!--<h1>Replicore</h1>-->
+    <section id="home" >
+    <img src="logo img.jpg" alt="logo" class="logo-img"/>
+    <div class="tagline"><h1>From Research to Recognition</h1></div>
+    </section>
+    <section id="services">
+    <br>
+    <div class="metrics"><h1>Our Services</h1></div>
+    <div class="services">
+      <div class="service-box">
+        <h2>📄 IEEE & Journal Papers</h2>
+        <p><h3>End-to-end support for writing, editing, and formatting IEEE, Scopus, and UGC journals.</h3></p>
+      </div>
+      <div class="service-box">
+        <h2>🎓 PhD Thesis Assistance</h2>
+        <p><h3>Proposal writing, implementation, analysis, and full thesis support tailored for scholars.</h3></p>
+      </div>
+      <div class="service-box">
+        <h2>🔍 Research Implementation</h2>
+        <p><h3>Custom ML, Python, MATLAB, or simulation code development for your paper or thesis.</h3></p>
+      </div>
+      <div class="service-box">
+        <h2>🧪 Patent Filing Support</h2>
+        <p><h3>From idea to filing – we draft, format, and submit provisional or complete patents with full confidentiality.</h3></p>
+      </div>
+    </div>
+<br><br><br>
+</section>
+
+<section id="pricing">
+ <div class="metrics"><h1>Pricing</h1></div><br>
+  <div class="pricing">
+    <div class="pricing-box">
+      <h2>Student Papers</h2>
+        <p><h3>IEEE Paper - Rs.10000<br>Paper with Acceptance - Rs.12000</h3></p>
+      </div>
+
+    <div class="pricing-box">
+      <h2>Staff Papers</h2>
+      <p><h3>IEEE Staff Paper - Rs.7000<br>Normal Paper - Rs.6000</h3></p>
+    </div>
+    
+    <div class="pricing-box">
+      <h2>PHD Papers</h2>
+      <p><h3>Q1 Paper - Rs.30000<br>Journal - Rs.30000<br></h3> </p>
+    </div>
+
+    <div class="pricing-box">
+      <h2>Patent Works</h2>
+      <p><h3>IEEE Paper - Rs.3000<br>Journal - Rs.5000<br>Q1 Paper - Rs.5000 </h3></p>
+    </div>
+    </div><br><br><br> <br><br>
+</section>
+ <img src="logo 2.png" alt="img" class="logo-img1">
+<section id="contact">
+    <div class="footer">
+      Contact Us <br>sumithra.m20122002@gmail.com <br> WhatsApp: +91 93616 31173<br>
+    </div>
+  </div>
+</section>
+
+
+  <!-- .poster {
+      width: 150%;
+      max-width: 25000px;
+      background: #121212;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    .poster h1 {
+      font-size: 3rem;
+      margin-bottom: 1000px;
+      color: #00bcd4;
+    }
+
+    background-image: url(logo1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+-->
+</body>
+</html>
